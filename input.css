@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+body {
+  scrollbar-width: none;
+}
+
+/* IE/Old Edge */
+body {
+  -ms-overflow-style: none;
+}
+@theme {
+  --breakpoint-xxl: 1440px;
+}
+@theme {
+  --breakpoint-x1350: 1350px;
+}
+@theme {
+  --breakpoint-x900: 900px;
+}
+
+@theme {
+  --breakpoint-x475: 475px;
+}
+@theme {
+  --breakpoint-x600: 600px;
+}
+.gradient-border {
+  border: 3px solid transparent;
+  border-image: linear-gradient(90deg, #065f46, #22c55e, #bbf7d0) 1;
+  border-radius: 1rem;
+  
+}
