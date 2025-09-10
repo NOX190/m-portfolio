@@ -22,23 +22,5 @@ var typed = new Typed("#typed-text", {
   });
 
 
-//   <header id="main-header" class="fixed top-0 w-full bg-black z-50 transition-transform duration-500">
-//   <!-- logo + nav -->
-// </header>
 
-
-let lastScroll = 0;
-const header = document.getElementById("main-header");
-
-window.addEventListener("scroll", () => {
-  let currentScroll = window.scrollY;
-  if (currentScroll > lastScroll) {
-    // scroll down → hide
-    header.style.transform = "translateY(-100%)";
-  } else {
-    // scroll up → show
-    header.style.transform = "translateY(0)";
-  }
-  lastScroll = currentScroll;
-});
 
