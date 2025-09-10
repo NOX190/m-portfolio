@@ -34,9 +34,6 @@ body {
 @theme {
   --breakpoint-x600: 600px;
 }
-.gradient-border {
-  border: 3px solid transparent;
-  border-image: linear-gradient(90deg, #065f46, #22c55e, #bbf7d0) 1;
-  border-radius: 1rem;
-  
+@theme {
+  --breakpoint-x375: 375px;
 }
